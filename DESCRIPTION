@@ -1,0 +1,22 @@
+Package: ep2b
+Title: Import and Examine Excel Documents Simply 
+Version: 0.0.0.9000
+Authors@R:
+    person("Michael", "Littrell", email = "mlittrell@tntech.edu", role = c("aut", "cre"))
+Description: Reads all sheets from an Excel workbook into a named list of
+    tibbles and prints a summary of each sheet's dimensions, column types,
+    and basic statistics. Designed to shorten the initial "what's in this
+    file?" step of exploratory analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    readxl,
+    tibble,
+    cli,
+    purrr,
+    dplyr
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
